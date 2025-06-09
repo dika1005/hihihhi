@@ -1,9 +1,9 @@
 
-
-export default function Home() {
+export default function Profile() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      Hello World
+      <h1 className="text-2xl">Profile Page</h1>
+      <p>This is the profile page of our application.</p>
     </div>
   );
 }
